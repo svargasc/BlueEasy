@@ -674,8 +674,9 @@ a.raya {
     }
 
     .content2 {
+        padding: 10px;
         height: 600px;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 45% 45%;
         grid-template-rows: 1fr 1fr;
         grid-template-areas: "dos tres"
             "cuatro cinco";
@@ -703,13 +704,18 @@ a.raya {
         margin-top: 20px;
     }
 
+    .portafolio{
+        width: 100%;
+        padding: 10px;
+    }
+
     .navPortafolio a {
         padding: 2px 8px;
         margin: 2px 2px;
     }
 
     .imgPortafolio {
-        grid-template-columns: 198px 198px;
+        grid-template-columns: 45% 45%;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         gap: 10px;
     }
@@ -731,9 +737,10 @@ a.raya {
     }
 
     .content5 {
+        padding: 10px;
         height: 510px;
         background-position: center;
-        grid-template-columns: 420px;
+        grid-template-columns: 100%;
         grid-template-rows: 50px 200px 200px;
         grid-template-areas: "tittle"
             "semiContentIzquierdo"
@@ -750,13 +757,13 @@ a.raya {
     }
 
     .content7 {
-        padding: 8px;
+        padding: 10px;
         height: 800px;
         background-position: center;
     }
 
     form {
-        grid-template-columns: 430px;
+        grid-template-columns: 100%;
         grid-template-rows: 60px 140px 140px 90px 90px 200px 80px;
         grid-template-areas: "tittleContact"
             "textContact1"
