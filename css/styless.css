@@ -702,13 +702,11 @@ a.raya {
 
     .line{
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-bottom: 8%;
         border: none;
-    }
-    .line h3{
-        margin-left: 160px;
-        border-bottom: 2px solid #353F46;
-        width: 40px;
     }
     .portafolio{
         width: 100%;
@@ -717,7 +715,7 @@ a.raya {
 
     .navPortafolio a {
         font-size: 10px;
-        padding: 10px;
+        padding: 4px 6px;
     }
 
     .imgPortafolio {
@@ -732,6 +730,9 @@ a.raya {
         grid-template-areas: "izquierdo"
             "derecho";
         gap: 10px;
+    }
+    .textContent3 h2{
+        font-size: 24px;
     }
 
     .content4 {
