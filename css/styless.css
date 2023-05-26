@@ -583,6 +583,8 @@ a.raya {
     }
 
     .content2 {
+        width: 100%;
+        padding: 10px;
         grid-template-columns: 160px 160px 160px 160px 160px 160px;
         justify-content: center;
         gap: 30px;
@@ -602,10 +604,14 @@ a.raya {
     }
 
     .imgPortafolio {
+        width: 100%;
+        padding: 10px;
         grid-template-columns: 156px 156px 156px 156px;
     }
 
     .content3 {
+        width: 100%;
+        padding: 10px;
         grid-template-columns: 340px 340px;
         height: 440px;
     }
@@ -640,6 +646,8 @@ a.raya {
     }
 
     form {
+        width: 100%;
+        padding: 10px;
         grid-template-columns: 350px 350px
     }
 }
