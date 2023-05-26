@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-.content1{
+.content1 {
     width: 100%;
     background-image: url(../images/Fondo.png);
     height: 660px;
@@ -14,7 +14,7 @@
     display: grid;
 }
 
-header{
+header {
     width: 100%;
     background: #414b53;
     display: flex;
@@ -22,21 +22,26 @@ header{
     align-items: center;
     height: 140px;
 }
-header h3{
+
+header h3 {
     font-size: 30px;
     font-weight: 700;
     color: #fff;
     width: 20%;
 }
-header span{
+
+header span {
     color: #4BCAFF;
 }
-nav{
-    width: 30%;;
+
+nav {
+    width: 30%;
+    ;
     display: flex;
     justify-content: space-evenly;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #fff;
     font-size: 14px;
@@ -44,14 +49,16 @@ nav a{
     margin: 8px;
     font-weight: 600;
 }
-.textHeader{
+
+.textHeader {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
-.textHeader h2{
+
+.textHeader h2 {
     font-weight: 100;
     display: flex;
     height: 6%;
@@ -62,7 +69,7 @@ nav a{
     align-items: center;
 }
 
-.content2{
+.content2 {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -70,51 +77,70 @@ nav a{
     background: #4BCAFF;
     height: 300px;
 }
-.semiContent1,.semiContent2,.semiContent3,.semiContent4{
+
+.semiContent1,
+.semiContent2,
+.semiContent3,
+.semiContent4 {
     align-self: center;
     justify-self: center;
 }
-.semiContent1{
+
+.semiContent1 {
     grid-area: dos;
 }
-.semiContent2{
+
+.semiContent2 {
     grid-area: tres;
 }
-.semiContent3{
+
+.semiContent3 {
     grid-area: cuatro;
 }
-.semiContent4{
+
+.semiContent4 {
     grid-area: cinco;
 }
-.semiContent1 h4,.semiContent2 h4,.semiContent3 h4,.semiContent4 h4{
+
+.semiContent1 h4,
+.semiContent2 h4,
+.semiContent3 h4,
+.semiContent4 h4 {
     padding: 8px 0px;
     color: #fff;
 }
-.semiContent1 p,.semiContent2 p,.semiContent3 p,.semiContent4 p{
+
+.semiContent1 p,
+.semiContent2 p,
+.semiContent3 p,
+.semiContent4 p {
     font-size: 14px;
     color: #fff;
-    
+
     padding: 8px 0px;
 }
 
-.navPortafolio{
+.navPortafolio {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 140px;
 }
-.navPortafolio h3{
+
+.navPortafolio h3 {
     font-weight: 100;
     color: #69747B;
     font-size: 30px;
 }
-.line{
+
+.line {
     margin-right: 32.4%;
     width: 3%;
     border-bottom: solid 2px #69747B;
 }
-.navPortafolio a{
+
+.navPortafolio a {
     text-decoration: none;
     color: #69747B;
     font-size: 14px;
@@ -122,11 +148,13 @@ nav a{
     margin: 8px;
     font-weight: 600;
 }
-a.lineBlue{
+
+a.lineBlue {
     color: #4BCAFF;
     border: #4BCAFF solid 2px;
 }
-.imgPortafolio{
+
+.imgPortafolio {
     display: grid;
     grid-template-columns: 298px 298px 298px 298px;
     grid-template-rows: 1fr 1fr;
@@ -134,13 +162,14 @@ a.lineBlue{
     gap: 35px;
     overflow: hidden;
 }
-.imgPortafolio img{
+
+.imgPortafolio img {
     align-self: center;
     justify-self: center;
 }
 
 
-.content3{
+.content3 {
     width: 100%;
     display: grid;
     grid-template-columns: 620px 620px;
@@ -152,22 +181,26 @@ a.lineBlue{
     align-items: center;
     overflow: hidden;
 }
-.tittleContent3{
+
+.tittleContent3 {
     border-bottom: solid 2px #fff;
     width: 8%;
 }
-.textContent3{
+
+.textContent3 {
     grid-area: izquierdo;
     align-self: center;
     justify-self: left;
     color: #fff;
     padding: 10px 0px;
 }
-.textContent3 h2{
+
+.textContent3 h2 {
     font-size: 28px;
     font-weight: 100;
 }
-.textContent3 button{
+
+.textContent3 button {
     height: 50px;
     width: 140px;
     font-size: 14px;
@@ -176,13 +209,14 @@ a.lineBlue{
     background: #515F67;
     border: solid 2px #353F46;
 }
-.imgContent3{
+
+.imgContent3 {
     grid-area: derecho;
     align-self: center;
     justify-self: end;
 }
 
-.content4{
+.content4 {
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -191,17 +225,21 @@ a.lineBlue{
     justify-content: center;
     align-items: center;
 }
-.navContent4{
+
+.navContent4 {
     display: flex;
     width: 68%;
     justify-content: space-between;
     padding: 20px 0px;
     align-items: center;
-}.navContent4 h2{
+}
+
+.navContent4 h2 {
     color: #fff;
     font-size: 32px;
 }
-.textContent4{
+
+.textContent4 {
     display: flex;
     flex-direction: column;
     width: 68%;
@@ -211,7 +249,7 @@ a.lineBlue{
     font-size: 30px;
 }
 
-.content5{
+.content5 {
     width: 100%;
     padding-top: 6%;
     background-image: url(../images/bg_whoIs.png);
@@ -221,45 +259,52 @@ a.lineBlue{
     align-self: center;
     grid-template-columns: 620px 620px;
     grid-template-rows: 50px 160px;
-    grid-template-areas:"tittle ."
-                         "semiContentIzquierdo semiContentDerecho";
+    grid-template-areas: "tittle ."
+        "semiContentIzquierdo semiContentDerecho";
     gap: 50px;
 }
-.tittle{
+
+.tittle {
     align-self: center;
     grid-area: tittle;
     width: 100%;
 }
-.tittleContent5{
+
+.tittleContent5 {
     border-bottom: solid 2px #fff;
     width: 11%;
 }
-.tittle h3{
+
+.tittle h3 {
     font-weight: 100;
     color: #fff;
     font-size: 28px;
 }
-.semiContentIzquierdo{
+
+.semiContentIzquierdo {
     align-self: center;
     grid-area: semiContentIzquierdo;
 }
-.semiContentIzquierdo p{
+
+.semiContentIzquierdo p {
     font-size: 16px;
     padding: 16px 0px;
     color: #fff;
 }
-.semiContentDerecho{
+
+.semiContentDerecho {
     align-self: center;
     grid-area: semiContentDerecho;
 }
-.semiContentDerecho p{
+
+.semiContentDerecho p {
     padding: 16px 0px;
     font-size: 16px;
     color: #fff;
     padding-bottom: 5%;
 }
 
-.content6{
+.content6 {
     display: flex;
     flex-direction: column;
     background: #ffffff;
@@ -267,23 +312,27 @@ a.lineBlue{
     width: 100%;
     align-items: center;
 }
-.navContent6{
+
+.navContent6 {
     display: flex;
     width: 68%;
     justify-content: space-between;
     padding: 20px 0px;
     align-items: center;
 }
-.tittleContent6{
+
+.tittleContent6 {
     border-bottom: solid 2px #515F67;
     width: 5.5%;
 }
-.navContent6 h2{
+
+.navContent6 h2 {
     font-weight: 100;
     color: #515F67;
     font-size: 36px;
 }
-.textContent6{
+
+.textContent6 {
     display: flex;
     flex-direction: column;
     width: 68%;
@@ -291,18 +340,20 @@ a.lineBlue{
     padding: 20px 0px;
     color: #515F67;
 }
-.textContent6 p{
+
+.textContent6 p {
     font-weight: 100;
     font-size: 30px;
     margin-bottom: 2%;
 }
-.textContent6 strong{
+
+.textContent6 strong {
     color: #4BCAFF;
     font-size: 14px;
 }
 
 
-.content7{
+.content7 {
     width: 100%;
     background-image: url(../images/bg_contact.png);
     height: 800px;
@@ -310,89 +361,107 @@ a.lineBlue{
     justify-content: center;
     align-items: center;
 }
-form{
+
+form {
     display: grid;
     grid-template-columns: 630px 630px;
     grid-template-rows: 100px 140px 140px 200px 100px;
     grid-template-areas: "tittleContact tittleContact"
-                         "names textContact1"
-                         "emails textContact2"
-                         "messages messages"
-                         "button .";
+        "names textContact1"
+        "emails textContact2"
+        "messages messages"
+        "button .";
     justify-content: center;
     align-items: center;
 }
-.tittleContact{
+
+.tittleContact {
     color: #fff;
     border-bottom: solid 2px #fff;
     width: 4.3%;
     grid-area: tittleContact;
 }
-.tittleContact h2{
+
+.tittleContact h2 {
     font-size: 26px;
     font-weight: 100;
 }
-.textContact1{
+
+.textContact1 {
     grid-area: textContact1;
     align-self: center;
     width: 100%;
     padding: 10px 0px;
     color: #fff;
-}.textContact1 p, .textContact2 p{
+}
+
+.textContact1 p,
+.textContact2 p {
     line-height: 26px;
 }
-.textContact2{
+
+.textContact2 {
     grid-area: textContact2;
     align-self: center;
     width: 100%;
     padding: 10px 0px;
     color: #fff;
 }
-.name{
+
+.name {
     grid-area: names;
     align-self: center;
     width: 80%;
-    padding: 10px 0px;    
+    padding: 10px 0px;
     color: #fff;
 }
-.email{
+
+.email {
     grid-area: emails;
     align-self: center;
     width: 80%;
     padding: 10px 0px;
     color: #fff;
 }
-.name input, .email input{    
+
+.name input,
+.email input {
     width: 100%;
     height: 50px;
     opacity: .1;
 }
-.messagess{
+
+.messagess {
     grid-area: messages;
     align-self: center;
     width: 100%;
-    padding: 10px 0px;    
+    padding: 10px 0px;
     color: #fff;
 }
-.messagess textarea{
+
+.messagess textarea {
     border: solid 2px #fff;
     width: 100%;
     height: 170px;
     opacity: .1;
 }
-label{
+
+label {
     font-size: 14px;
     font-weight: 600;
 }
-.borde{
+
+.borde {
     border: 2px solid #fff;
 }
-.button{
+
+.button {
     grid-area: button;
     width: 100%;
     padding: 10px 0px;
 }
-.button button{
+
+.button button {
     border: none;
     color: #fff;
     width: 340px;
@@ -401,7 +470,8 @@ label{
     font-weight: 800;
     height: 50px;
 }
-footer{
+
+footer {
     background: #353F47;
     height: 140px;
     display: flex;
@@ -409,7 +479,8 @@ footer{
     align-items: center;
     color: #4A575F
 }
-.links a{
+
+.links a {
     text-decoration: none;
     font-size: 12px;
     font-weight: 800;
@@ -417,122 +488,285 @@ footer{
     color: #4A575F;
     border-right: solid 2px #4A575F;
 }
-a.raya{
+
+a.raya {
     border: none;
 }
 
 @media screen and (max-width: 1200px) {
-    nav{
+    nav {
         width: 60%;
     }
-    .content2{
+
+    .content2 {
         grid-template-columns: 200px 200px 200px 200px 200px 200px;
         justify-content: center;
         gap: 30px;
     }
-    .line{
+
+    .line {
         margin-right: 22.6%;
     }
-    .imgPortafolio{
+
+    .imgPortafolio {
         grid-template-columns: 200px 200px 200px 200px;
     }
-    .imgPortafolio img{
+
+    .imgPortafolio img {
         width: 100%;
     }
-    .content3{
+
+    .content3 {
         grid-template-columns: 440px 440px;
     }
-    .content3 img{
+
+    .content3 img {
         width: 100%;
     }
-    .navContent4, .textContent4{
+
+    .navContent4,
+    .textContent4 {
         width: 76%;
     }
-    .content5{
+
+    .content5 {
         grid-template-columns: 430px 430px;
         padding-top: 8%;
     }
-    .content6{
+
+    .content6 {
         height: 330px;
     }
-    .navContent6, .textContent6{
+
+    .navContent6,
+    .textContent6 {
         width: 76%;
     }
-    form{
+
+    form {
         grid-template-columns: 450px 450px
     }
 }
 
 @media screen and (max-width: 992px) {
-    .line{
+    .line {
         margin-right: 27.6%;
     }
-    .navContent4, .textContent4{
+
+    .navContent4,
+    .textContent4 {
         width: 92%;
     }
-    .navContent6, .textContent6{
+
+    .navContent6,
+    .textContent6 {
         width: 92%;
     }
 }
 
 @media screen and (max-width: 772px) {
-    header h3{
+    header h3 {
         text-align: center;
         width: 30%;
     }
-    nav{
+
+    nav {
         width: 90%;
     }
-    nav a{
+
+    nav a {
         padding: 8px 14px;
     }
-    .textHeader h2{
+
+    .textHeader h2 {
         font-size: 26px;
     }
-    .content2{
+
+    .content2 {
         grid-template-columns: 160px 160px 160px 160px 160px 160px;
         justify-content: center;
         gap: 30px;
     }
-    .line{
+
+    .line {
         margin-right: 38%;
     }
-    .navPortafolio h3{
+
+    .navPortafolio h3 {
         font-size: 24px;
     }
-    .navPortafolio{
+
+    .navPortafolio {
         margin-left: 28%;
         width: 48%;
     }
-    .imgPortafolio{
+
+    .imgPortafolio {
         grid-template-columns: 156px 156px 156px 156px;
     }
-    .content3{
+
+    .content3 {
         grid-template-columns: 340px 340px;
         height: 440px;
     }
-    .content3 img{
+
+    .content3 img {
         width: 100%;
     }
-    .navContent4, .textContent4{
+
+    .navContent4,
+    .textContent4 {
         width: 92%;
     }
-    .content5{
+
+    .content5 {
         grid-template-columns: 330px 330px;
         grid-template-rows: 50px 228px;
         gap: 30px;
     }
-    .semiContentDerecho{
+
+    .semiContentDerecho {
         align-self: self-start;
     }
-    .semiContentDerecho p{
+
+    .semiContentDerecho p {
         padding-top: 0;
         padding-bottom: 50px;
     }
-    .navContent6, .textContent6{
+
+    .navContent6,
+    .textContent6 {
         width: 92%;
     }
-    form{
+
+    form {
         grid-template-columns: 350px 350px
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content1 {
+        height: 350px;
+    }
+
+    header {
+        display: block;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header h3 {
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+        justify-content: center;
+    }
+
+    nav a {
+        padding: 10px;
+        margin: 4px;
+    }
+
+    .textHeader h2 {
+        font-size: 16px;
+    }
+
+    .content2 {
+        height: 600px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "dos tres"
+            "cuatro cinco";
+        gap: 0px;
+    }
+
+    .semiContent1,
+    .semiContent2,
+    .semiContent3,
+    .semiContent4 {
+        padding: 10px;
+    }
+
+    .navPortafolio {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .line {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .navPortafolio a {
+        padding: 2px 8px;
+        margin: 2px 2px;
+    }
+
+    .imgPortafolio {
+        grid-template-columns: 198px 198px;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    .content3 {
+        height: 700px;
+        grid-template-columns: 320px;
+        grid-template-areas: "izquierdo"
+            "derecho";
+        gap: 10px;
+    }
+
+    .content4 {
+        height: 280px;
+    }
+
+    .textContent4 {
+        font-size: 18px;
+    }
+
+    .content5 {
+        height: 510px;
+        background-position: center;
+        grid-template-columns: 420px;
+        grid-template-rows: 50px 200px 200px;
+        grid-template-areas: "tittle"
+            "semiContentIzquierdo"
+            "semiContentDerecho";
+        gap: 10px;
+    }
+
+    .content6 {
+        height: 280px;
+    }
+
+    .textContent6 p {
+        font-size: 18px;
+    }
+
+    .content7 {
+        padding: 8px;
+        height: 800px;
+        background-position: center;
+    }
+
+    form {
+        grid-template-columns: 430px;
+        grid-template-rows: 60px 140px 140px 90px 90px 200px 80px;
+        grid-template-areas: "tittleContact"
+            "textContact1"
+            "textContact2"
+            "names"
+            "emails"
+            "messages"
+            "button";
+    }
+    .button button, .name, .email{
+        width: 100%;
     }
 }
