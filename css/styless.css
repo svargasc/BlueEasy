@@ -208,6 +208,7 @@ a.lineBlue {
     color: #353F46;
     background: #515F67;
     border: solid 2px #353F46;
+    cursor: pointer;
 }
 
 .imgContent3 {
@@ -469,6 +470,7 @@ label {
     background: #4BCAFF;
     font-weight: 800;
     height: 50px;
+    cursor: pointer;
 }
 
 footer {
